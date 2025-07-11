@@ -20,16 +20,13 @@ A simple and lightweight Bash tool to convert:
 ✅ Minimal dependencies (dig, bash)
 
 🛠️ Installation
-bash
-Copy
-Edit
+```
 git clone https://github.com/yourusername/ip-domain-tool.git
 cd ip-domain-tool
 chmod +x ip_domain_tool.sh
+```
 🚀 Usage
-bash
-Copy
-Edit
+```
 ./ip_domain_tool.sh [option] [target]
 🔹 Options:
 Option	Description	Example
@@ -37,6 +34,7 @@ Option	Description	Example
 -i	Convert single IP to domain	./ip_domain_tool.sh -i 8.8.8.8
 -df	File of domains to IPs	./ip_domain_tool.sh -df domains.txt
 -if	File of IPs to domains	./ip_domain_tool.sh -if ips.txt
+```
 
 📂 Input File Format
 Simple plaintext files with one domain or IP per line.
