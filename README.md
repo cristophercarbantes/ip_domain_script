@@ -66,6 +66,7 @@ Example ips.txt:
 ```
 
 ⚠️ Requirements
+
 -bash (usually pre-installed)
 
 -dig (from dnsutils package)
