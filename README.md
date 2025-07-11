@@ -1,4 +1,4 @@
-# ip_domain_script
+# IP ↔ Domain Lookup Tool
 
 🔁 IP ↔ Domain Lookup Tool
 
@@ -41,22 +41,20 @@ Simple plaintext files with one domain or IP per line.
 
 Example domains.txt:
 
-Copy
-Edit
+```
 google.com
 github.com
 example.org
-Example ips.txt:
+```
 
-Copy
-Edit
+Example ips.txt:
+```
 8.8.8.8
 93.184.216.34
 1.1.1.1
+```
 📦 Example Output
-bash
-Copy
-Edit
+```
 ===========================================
   IP ↔ Domain Lookup Tool
   Created by: Cristopher Carbantes
@@ -65,16 +63,15 @@ Edit
 ✅ google.com → 142.250.191.14
 ✅ github.com → 20.207.73.82
 ❌ example.org → Could not resolve IP
-⚠️ Requirements
-bash (usually pre-installed)
+```
 
-dig (from dnsutils package)
+⚠️ Requirements
+-bash (usually pre-installed)
+
+-dig (from dnsutils package)
 
 To install dig if it's missing:
-
-bash
-Copy
-Edit
+```
 # Debian/Ubuntu
 sudo apt install dnsutils
 
@@ -83,6 +80,8 @@ sudo yum install bind-utils
 
 # Arch
 sudo pacman -S bind
+```
+
 📜 License
 MIT License — free to use, modify, and distribute.
 
